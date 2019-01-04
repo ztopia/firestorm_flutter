@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './draw.dart';
 import './bottom_navigation_bar.dart';
 import './news_list.dart';
+import './swiper.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -24,13 +25,15 @@ class Home extends StatelessWidget {
         elevation: 0.0,
       ),
       drawer: DrawerDemo(),
-      bottomNavigationBar: BottomNavigationBarDemo(),
+      // bottomNavigationBar: BottomNavigationBarDemo(),
+      // bottomNavigationBar: Entry(),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Container(
               height: 120.0,
               color: Colors.blue,
+              child: ExampleHorizontal(),
             ),
             Container(
               height: 30.0,

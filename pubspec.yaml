@@ -15,7 +15,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_swiper : ^1.1.4
+  flutter_swiper: ^1.1.4
+  flutter_custom_bottom_tab_bar:
+    git: https://github.com/LiuC520/flutter_custom_bottom_tab_bar.git
+  flutter_refresh: ^0.0.2
+  flutter_webview_plugin: ^0.3.0+2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -25,13 +29,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -39,22 +41,37 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - images/logo.png
-   - images/drawer_bg.png
-   - images/home_invitate.png
-   - images/game_zone_egg.png
-   - images/game_zone_fortune.png
-   - images/bottom_bar_news.png
-   - images/bottom_bar_game.png
-   - images/bottom_bar_market.png
-   - images/bottom_bar_trade.png
+    - images/logo.png
+    - images/drawer_bg.png
+    - images/home_invitate.png
+    - images/game_zone_egg.png
+    - images/game_zone_fortune.png
 
+    - images/bottom_bar_home.png
+    - images/bottom_bar_news.png
+    - images/bottom_bar_game.png
+    - images/bottom_bar_market.png
+    - images/bottom_bar_trade.png
+    - images/home.png
+    - images/news.png
+    - images/game.png
+    - images/market.png
+    - images/trade.png
+    # - images/tabbar/home_divider.png
+    # - images/tabbar/tab_home.png
+    # - images/tabbar/tab_home_selected.png
+    # - images/tabbar/tab_xigua.png
+    # - images/tabbar/tab_xigua_selected.png
+    # - images/tabbar/tab_find.png
+    # - images/tabbar/tab_find_selected.png
+    # - images/tabbar/tab_video.png
+    # - images/tabbar/tab_video_selected.png
+    # - images/tabbar/tab_me.png
+    # - images/tabbar/tab_me_selected.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
-
   # For details regarding adding assets from package dependencies, see
   # https://flutter.io/assets-and-images/#from-packages
-
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
